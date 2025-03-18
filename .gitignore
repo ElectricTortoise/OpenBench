@@ -1,23 +1,62 @@
+# Python compiled files
 *.pyc
+
+# Your project structure
 Client/*
 OpenBench/migrations/*
 
+# Sensitive data
 credentials
 credentials.*
 db.sqlite3
 
+# Scripts
 Scripts/Engines/*
 Scripts/Networks/*
 
+# Media files
 Media/*
-
-!Client/*.py
-!Client/cutechess-ob
-!Client/cutechess-ob.exe
-
 Media/PGNs/*
 Media/Networks/*
 Media/Events/*
 
+# Exceptions (files to keep)
+!Client/*.py
+!Client/cutechess-ob
+!Client/cutechess-ob.exe
+
+# Lock and EPD files
 *.lock
 *.epd
+
+# Python virtual environment
+venv/
+.env/
+.env.*
+
+# Visual Studio
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Visual Studio build results
+[Bb]in/
+[Oo]bj/
+
+# Visual Studio Code
+.vscode/
+
+# Windows system files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Logs and test results
+*.log
+TestResults/
+*.trx
+
+# Auto-generated C# files
+*.generated.cs
